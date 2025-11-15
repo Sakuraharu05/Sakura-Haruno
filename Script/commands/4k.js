@@ -34,7 +34,7 @@ module.exports = {
  }
 
  try {
- const processingMsg = await api.sendMessage("𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐁𝐚𝐛𝐲...😘", threadID);
+ const processingMsg = await api.sendMessage("Wait...⏳", threadID);
 
  const apiUrl = `https://aryan-xyz-upscale-api-phi.vercel.app/api/upscale-image?imageUrl=${encodeURIComponent(imageUrl)}&apikey=${xyz}`;
 
